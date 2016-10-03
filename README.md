@@ -1,7 +1,8 @@
 # consistent-hash-memcached
 Implementation of consistent hash algorithm.
 
-Prerequisites:
+PREREQUISITES:
+
 1. apt-get install memcached
 2. python-memcached==1.53
 3. python2.7
@@ -15,10 +16,11 @@ Prerequisites:
 11217
 11218
 
-Assumptions:
+ASSUMPTIONS:
+
 1. All the 8 memcached instances are running before running the program.
 
-Steps to run:
+STEPS to run:
 
 1. Create a virtual environment. 
 2. pip install -r requirements.txt
